@@ -3,7 +3,7 @@ function palindrom(str) {
   var teststring = str.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
  var countstring = 0;
  if(teststring==="") {
-   console.log(" there are no string here");
+   console.log("Empty");
    return false;
  }
  if ((teststring.length) % 2 === 0) {
